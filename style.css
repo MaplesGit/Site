@@ -1,0 +1,19 @@
+#special{
+    display: none;
+}
+
+
+body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+#play{
+    width: 8%;
+    height: 16%;
+    font-size: 5em;
+}
