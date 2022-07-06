@@ -8,10 +8,14 @@
 </head>
 <script>
     
+    function hide(id){
+        document.getElementById(id).style.display = "none";
+    }
+    
     function playV(id) {
         var video = document.getElementById(id);
-        document.getElementById("play").style.display = "none";
-        document.getElementById("tkt").innerHTML = "AHAHAHAHAH"
+        hide('play');
+        hide('tkt');
         video.style.display = "block";
         video.play();
     }
