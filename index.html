@@ -1,0 +1,35 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Site de Maples</title>
+</head>
+<script>
+    
+    function playV(id) {
+        var video = document.getElementById(id);
+        document.getElementById("play").style.display = "none";
+        document.getElementById("tkt").innerHTML = "AHAHAHAHAH"
+        video.style.display = "block";
+        video.play();
+    }
+</script>
+<body>
+
+
+
+    <button id="play" onclick="playV('special')">
+        >
+    </button>
+
+    <h1 id="tkt">TkT Clique</h1>
+
+    <video id="special">
+        <source src="nouvre_pas_stp/video.mp4"type="video/mp4" />
+    </video>
+    
+    
+</body>
+</html>
